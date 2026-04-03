@@ -313,3 +313,45 @@ body {
     gap: 15px;
   }
 }
+/* CONTADOR */
+.contador {
+  background-color: #e94560;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.contador-item {
+  text-align: center;
+  color: white;
+}
+
+.contador-item h3 {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contador-item p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+/* BOTON MODO OSCURO */
+.btn-tema {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-tema:hover {
+  background-color: white;
+  color: #1a1a2e;
+}
+
