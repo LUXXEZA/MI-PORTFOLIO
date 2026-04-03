@@ -237,3 +237,79 @@ body {
 .footer a:hover {
   color: white;
 }
+
+/* TABLET */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .menu {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre-contenido {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagen-placeholder {
+    width: 180px;
+    height: 180px;
+    font-size: 70px;
+  }
+}
+
+/* MÓVIL */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
+  .servicios {
+    padding: 60px 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .sobre-nosotros {
+    padding: 60px 20px;
+  }
+
+  .contacto {
+    padding: 60px 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
