@@ -1,0 +1,239 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* RESET Y BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a2e;
+  padding: 20px 40px;
+}
+
+.logo {
+  color: #e94560;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #e94560;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 32px;
+  color: #aaa;
+}
+
+.btn {
+  background-color: #e94560;
+  color: white;
+  padding: 14px 36px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #c73652;
+}
+
+/* SERVICIOS */
+.servicios {
+  text-align: center;
+  padding: 80px 40px;
+  background-color: #f9f9f9;
+}
+
+.servicios h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #1a1a2e;
+}
+
+.subtitulo {
+  color: #888;
+  margin-bottom: 50px;
+  font-size: 17px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 40px 30px;
+  width: 260px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.icono {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1a1a2e;
+}
+
+.card p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* SOBRE NOSOTROS */
+.sobre-nosotros {
+  background-color: #1a1a2e;
+  padding: 80px 40px;
+  color: white;
+}
+
+.sobre-contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.sobre-texto {
+  max-width: 500px;
+}
+
+.sobre-texto h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #e94560;
+}
+
+.sobre-texto p {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.sobre-texto .btn {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.imagen-placeholder {
+  width: 250px;
+  height: 250px;
+  background-color: #16213e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+/* CONTACTO */
+.contacto {
+  text-align: center;
+  padding: 80px 40px;
+  background-color: #f9f9f9;
+}
+
+.contacto h2 {
+  font-size: 36px;
+  color: #1a1a2e;
+  margin-bottom: 10px;
+}
+
+.btn-instagram {
+  display: inline-block;
+  margin-top: 20px;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: white;
+  padding: 16px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: opacity 0.3s;
+}
+
+.btn-instagram:hover {
+  opacity: 0.85;
+}
+/* FOOTER */
+.footer {
+  background-color: #1a1a2e;
+  color: #aaa;
+  text-align: center;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer a {
+  color: #e94560;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: white;
+}
