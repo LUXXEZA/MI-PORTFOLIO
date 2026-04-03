@@ -240,6 +240,14 @@ body {
 
 /* TABLET */
 @media (max-width: 768px) {
+  .contador {
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .contador-item h3 {
+    font-size: 36px;
+  }
   .navbar {
     flex-direction: column;
     gap: 20px;
@@ -279,6 +287,15 @@ body {
 
 /* MÓVIL */
 @media (max-width: 480px) {
+  .contador {
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  .contador-item h3 {
+    font-size: 42px;
+  }
   .navbar {
     padding: 20px;
   }
