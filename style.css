@@ -287,15 +287,6 @@ body {
 
 /* MÓVIL */
 @media (max-width: 480px) {
-  .contador {
-    flex-direction: column;
-    gap: 20px;
-    padding: 40px 20px;
-  }
-
-  .contador-item h3 {
-    font-size: 42px;
-  }
   .navbar {
     padding: 20px;
   }
@@ -328,6 +319,23 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 15px;
+  }
+
+  .contador {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #e94560;
+  }
+
+  .contador-item {
+    color: white;
+    text-align: center;
+  }
+
+  .contador-item h3 {
+    font-size: 42px;
   }
 }
 /* CONTADOR */
